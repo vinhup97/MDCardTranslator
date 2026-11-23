@@ -1,0 +1,27 @@
+# Bỏ qua toàn bộ dữ liệu gốc của game Yu-Gi-Oh! Master Duel
+/D3D12/
+/LocalData/
+/LocalSave/
+/masterduel_Data/
+/baselib.dll
+/GameAssembly.dll
+/masterduel.exe
+/UnityCrashHandler64.exe
+/UnityPlayer.dll
+
+# Ignore personal AI API config containing API keys
+/MDCardTranslator/ai_config.json
+/ai_config.json
+/vi_ai_config.json
+
+# Ignore temporary build files, release zips, logs, and backups
+/MDCardTranslator/src/out/
+/src/out/
+/release/
+/vi_cards_*.json
+*.obj
+*.lib
+*.exp
+*.pdb
+*.log
+*.old
