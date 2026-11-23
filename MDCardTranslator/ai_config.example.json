@@ -1,0 +1,9 @@
+{
+  "api_url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "api_key": "YOUR_API_KEY_HERE",
+  "model": "gemini-3.8-flash",
+  "target_language": "Vietnamese",
+  "timeout_ms": 30000,
+  "delay_ms": 1500,
+  "system_prompt": ""
+}
